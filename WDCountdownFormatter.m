@@ -61,7 +61,7 @@
     // Validity checking
     if (!hourFound || hour < 0) {
         if (error) {
-            if (!minuteFound) {
+            if (!hourFound) {
                 *error = [NSString stringWithFormat:@"No hour value found"];
             }
             else {
